@@ -10,10 +10,6 @@ body {
     margin: 130px 0px;
 }
 
-.navigation-bar {
-    padding: 0px 120px;
-}
-
 .navigation-header {
     background:#4aaaa5;
     padding: 50px;
@@ -131,4 +127,19 @@ body {
     padding: 10px;
     font-size: 1.2em;
     width: 120px;
+ }
+
+ @media screen 
+ and (min-width: 768px) 
+ and (max-width: 885px) {
+    body {
+        margin-top: 210px;
+    }   
+ }
+
+ @media screen 
+ and (max-width: 767px) {
+    .navigationbar-top {
+        padding: 0px;
+    }
  }
